@@ -1,0 +1,31 @@
+.conteudoLateralEsquerda{
+    line-height: 70px;
+    
+}
+
+.conteudoLateralEsquerda ul{
+    list-style-type: none;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+
+ul li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    
+}
+
+.conteudoLateralEsquerda img{
+    width: 170px;
+    height: 70px;
+    margin: 20px;
+}
+
+.conteudoLateralEsquerda .Profile{
+    margin-top: auto;
+  }
+

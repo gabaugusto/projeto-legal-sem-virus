@@ -1,0 +1,35 @@
+body {
+  background: #fafafa;
+}
+
+#root {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.conteudoLateralDireita,
+.conteudoLateralEsquerda,
+.conteudoCentral {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.conteudoLateralEsquerda {
+  display: flex;
+  width:17vw;
+  background: white;
+  line-height: 20px;
+}
+
+.conteudoLateralDireita {
+  background: blue;
+  width:20vw;
+}
+
+.conteudoCentral {
+  width:65vw;
+  background: #fafafa;
+}
+
